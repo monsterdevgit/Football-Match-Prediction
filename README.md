@@ -3,8 +3,8 @@
 ### Table of Contents
 1. Project Overview
 2. Repository Contents
-              * Web Scraping
-              * Model Development
+        * Web Scraping
+        * Model Development
 4. Model Evaluation
 5. Results
 6. Future Improvements
