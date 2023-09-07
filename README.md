@@ -3,8 +3,8 @@
 ### Table of Contents
 1. Project Overview
 2. Repository Contents
-        * Web Scraping
-        * Model Development
+              * Web Scraping
+              * Model Development
 4. Model Evaluation
 5. Results
 6. Future Improvements
@@ -14,12 +14,12 @@ In this project, I harnessed machine learning classifier called Random Forest cl
 
 ### Repository Contents
 **Web Scraping**  
-web scraping premier league data.ipynb: This file scrapes historical football match data from (fbref)[https://fbref.com/en/comps/9/Premier-League-Stats], cleans it meticulously, and saves it as a CSV file for further analysis and model development.  
+web scraping premier league data.ipynb: This file scrapes historical football match data from [fbref](https://fbref.com/en/comps/9/Premier-League-Stats), cleans it meticulously, and saves it as a CSV file for further analysis and model development.  
 
 **Model Development**  
 Matches_prediction_model.ipynb: The main script. It imports the pre-processed match data, conducts data wrangling, analysis, and feature extraction. Features are engineered to capture essential factors affecting match outcomes. The Random Forest classifier is used to build a predictive model, and GridSearchCV fine-tunes its hyperparameters for optimal performance.
 
-### Model Evaluation**
+### Model Evaluation
 Our final Random Forest classifier boasts a precision score of 60%. Which means the model was correct 60% of the time. Precision measures the accuracy of positive predictions in football match outcomes, meaning our model correctly predicts winning teams with a 60% accuracy rate.
 
 ### Results
